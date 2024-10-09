@@ -24,6 +24,13 @@ const handlebarsPlugin = handlebars({
 const serverOptions: ServerOptions = {
   // host: '192.168.95.17',
   port: 8080,
+  watch: {
+    // Add your localization directory or files here, e.g., /locales for JSON
+    ignored: ['!**/lang.ts', '!**/langPack.strings']  // Ensure Vite watches lang.ts or JSON localization files
+  },
+  hmr: {
+    overlay: true  // Shows an overlay on runtime errors, useful for debugging
+  },
   sourcemapIgnoreList(sourcePath, sourcemapPath) {
     return sourcePath.includes('node_modules') || sourcePath.includes('logger');
   }
@@ -100,6 +107,7 @@ export default defineConfig({
     globals: true,
     setupFiles: ['./src/tests/setup.ts']
   },
+  cacheDir: './node_modules/.vite_cache',
   server: serverOptions,
   base: '',
   build: {

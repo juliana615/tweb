@@ -7,6 +7,7 @@
 "FilterIncludeExcludeInfo" = "Choose chats and types of chats that will\nappear and never appear in this folder.";
 "FilterMenuDelete" = "Delete Folder";
 "FilterHeaderEdit" = "Edit Folder";
+"ReservedEdit" = "Edit Word";
 "FilterAllGroups" = "All Groups";
 "FilterAllContacts" = "All Contacts";
 "FilterAllNonContacts" = "All Non-Contacts";
@@ -716,7 +717,9 @@
 "FilterChatTypes" = "Chat types";
 "FilterChats" = "Chats";
 "FilterNew" = "New Folder";
+"ReservedNew" = "New Word";
 "Filters" = "Folders";
+"Reserved" = "Words";
 "FilterRecommended" = "Recommended Folders";
 "FilterShowMoreChats_one" = "Show %1$d More Chat";
 "FilterShowMoreChats_other" = "Show %1$d More Chats";
@@ -1973,6 +1976,7 @@
 "AnimatedEffectPremium" = "Subscribe to **Telegram Premium** to add this animated effect.";
 "StickerEffects" = "Effects from stickers";
 "AccountSettings.Filters" = "Chat Folders";
+"AccountSettings.ReservedWords" = "Reserved Words";
 "AccountSettings.Notifications" = "Notifications and Sounds";
 "AccountSettings.PrivacyAndSecurity" = "Privacy and Security";
 "AccountSettings.Language" = "Language";
@@ -2152,6 +2156,9 @@
 "ChatList.Filter.Header" = "Create folders for different groups of chats and quickly switch between them.";
 "ChatList.Filter.NewTitle" = "Create Folder";
 "ChatList.Filter.List.Title" = "Chat Folders";
+"WordList.Reserved.List.Title" = "Reserved Words";
+"WordList.Reserved.Header" = "Create reserved word pairs for easy input.";
+"WordList.Reserved.NewTitle" = "Create Word";
 "ChatList.Filter.Include.AddChat" = "Add Chats";
 "ChatList.Filter.Contacts" = "Contacts";
 "ChatList.Filter.NonContacts" = "Non-Contacts";
@@ -2162,7 +2169,9 @@
 "ChatList.Filter.ReadChats" = "Read";
 "ChatList.Filter.Archive" = "Archived";
 "ChatList.Filter.Confirm.Remove.Header" = "Remove Folder";
+"WordList.Reserved.Remove.Header" = "Remove Word";
 "ChatList.Filter.Confirm.Remove.Text" = "Are you sure you want to remove this folder? Your chats will not be deleted.";
+"WordList.Reserved.Confirm.Remove.Text" = "Are you sure you want to remove this folder?";
 "ChatList.Mute.1Hour" = "For 1 Hour";
 "ChatList.Mute.4Hours" = "For 4 Hours";
 "ChatList.Mute.8Hours" = "For 8 Hours";

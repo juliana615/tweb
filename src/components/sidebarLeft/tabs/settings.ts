@@ -10,6 +10,7 @@ import AppPrivacyAndSecurityTab from './privacyAndSecurity';
 import AppGeneralSettingsTab from './generalSettings';
 import AppEditProfileTab from './editProfile';
 import AppChatFoldersTab from './chatFolders';
+import AppReservedWordsTab from './reservedWords';
 import AppNotificationsTab from './notifications';
 import AppLanguageTab from './language';
 import lottieLoader from '../../../lib/rlottie/lottieLoader';
@@ -173,6 +174,7 @@ export default class AppSettingsTab extends SliderSuperTab {
       m('lock', 'AccountSettings.PrivacyAndSecurity', AppPrivacyAndSecurityTab),
       m('settings', 'Telegram.GeneralSettingsViewController', AppGeneralSettingsTab),
       m('folder', 'AccountSettings.Filters', AppChatFoldersTab),
+      m('folder', 'AccountSettings.ReservedWords', AppReservedWordsTab),
       m('stickers_face', 'StickersName', AppStickersAndEmojiTab)
     ];
 
